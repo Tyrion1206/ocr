@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+}
+
+/* 设置文本框的高度和滚动效果 */
+#proofread{
+	height: 300px;
+	overflow: scroll;
+}
+
+/* 图片不拉伸 */
+img{
+	width: 100%;
+}
+
+/* 图片容器的高度和滚动效果 */
+.wrapper{
+	height: 325px;
+	overflow: scroll;
+}

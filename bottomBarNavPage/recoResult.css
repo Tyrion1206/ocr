@@ -1,0 +1,15 @@
+/*头部*/
+.mui-bar {
+	background-color: #fff;
+	border-bottom: 0;
+	-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	/*透明度设为0取消下边框*/
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	/*透明度设为0取消下边框*/
+}
+
+/* 保存按钮的样式 */
+.mui-bar #save {
+	font-size: 16px;
+	line-height: 24px;
+}

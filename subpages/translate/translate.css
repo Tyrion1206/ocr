@@ -1,0 +1,22 @@
+/* 文本框的样式 */
+textarea{
+	border: 2px solid rgb(92, 175, 255);
+	border-radius: 20px;
+	margin-top: 20px;
+}
+
+/* 翻以前（后）的div的样式 */
+.beforeTrans,
+.afterTrans{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin: 5px auto;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	background-color: rgb(92, 175, 255);
+	border-radius: 25px;
+}
+

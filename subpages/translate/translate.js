@@ -11,7 +11,7 @@ mui.plusReady(function() {
 		var textareaDate = translate.getData(data);
 		var sign = translate.getSign(textareaDate);
 		translate.writeData(textareaDate); //向文本框中写数据
-		translate.transDate(textareaDate, sign); //翻译数据
+		translate.transData(textareaDate, sign); //翻译数据
 	}
 })
 
@@ -47,7 +47,7 @@ var translate = {
 	},
 
 	//翻译并显示数据
-	transDate: function(q, sign) {
+	transData: function(q, sign) {
 		mui.ajax("https://fanyi-api.baidu.com/api/trans/vip/translate", {
 			data: {
 				q: q,

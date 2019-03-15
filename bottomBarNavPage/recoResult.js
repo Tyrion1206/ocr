@@ -77,7 +77,7 @@ document.getElementById("search").addEventListener("tap", function() {
 }, false)
 
 //QQ按钮
-document.getElementsByClassName("setting")[0].addEventListener("tap",function(){
+document.getElementById("contact").addEventListener("tap",function(){
 	mui.alert("1007139980","联系作者QQ","我知道了");
 },false)
 

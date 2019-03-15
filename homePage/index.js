@@ -2,7 +2,7 @@ mui.init();
 
 
 //设置按钮
-document.getElementById("setting").addEventListener("tap",function(){
+document.getElementById("contact").addEventListener("tap",function(){
 	mui.alert("1007139980","联系作者QQ","我知道了");
 },false)
 

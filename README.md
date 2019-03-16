@@ -7,9 +7,9 @@
 ![翻译页面](img/previewApp/translate.jpg)
 ![校对页面](img/previewApp/proofread.jpg)
 ![搜索页面](img/previewApp/search.jpg)
-### 联系App作者
+### 侵权请联系App作者
 - QQ： 1007139980
-#### App设计样式参考[作者微博](https://www.weibo.com/u/6575067932?from=myfollow_all&is_all=1)
+#### 本App设计样式参考来自[作者微博](https://www.weibo.com/u/6575067932?from=myfollow_all&is_all=1)
 
 
 

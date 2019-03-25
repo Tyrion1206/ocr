@@ -8,7 +8,12 @@ mui.plusReady(function() {
 	if (data.words_result_num == 0) {
 		mui.toast('未识别,请重新扫描');
 	} else {
+		//复制识别后的内容
 		search.addInfo(data);
+		//绑定点击事件
+		document.getElementsByClassName("search")[0].addEventListener('tap',function(){
+			search.searchData();
+		},false)
 	}
 })
 

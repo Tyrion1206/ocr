@@ -85,7 +85,16 @@ var index = {
 	getBase64Data: function(imgPath) {
 		var bitmap = new plus.nativeObj.Bitmap(imgPath);
 		bitmap.load(imgPath, function(data) {
-			var base64Url = bitmap.toBase64Data().substr(22);
+			
+			//Mac OS  
+			// var base64Url = bitmap.toBase64Data().substr(22);  
+			 
+			//Android 
+			// var base64Url = bitmap.toBase64Data().substr(23);   
+			
+			//兼容  去掉data:image/jepg;base64,/9j
+			var base64Url = bitmap.toBase64Data().split(",")[1];   
+
 			console.log("base64成功");
 			index.upload(base64Url, imgPath); //base64后调用ajax方法
 		}, function(e) {

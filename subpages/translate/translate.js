@@ -11,7 +11,7 @@ mui.plusReady(function() {
 		var textareaDate = translate.getData(data);
 		var sign = translate.getSign(textareaDate);
 		translate.writeData(textareaDate); //向文本框中写数据
-		translate.transData(textareaDate, sign); //翻译数据
+		translate.transData(textareaDate, sign); //翻译数据 
 	}
 })
 
@@ -40,9 +40,9 @@ var translate = {
 		var salt = "12345678";
 		var secretKey = "8dDWr4QXAWg1C1Rdf1du";
 		var preMd5Str = appid + q + salt + secretKey;
-		console.log(preMd5Str);
+		// console.log(preMd5Str);
 		var md5Str = md5(preMd5Str);
-		console.log(md5Str);
+		// console.log(md5Str);
 		return md5(preMd5Str);
 	},
 

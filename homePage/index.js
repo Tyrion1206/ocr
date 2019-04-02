@@ -86,7 +86,7 @@ var index = {
 		var bitmap = new plus.nativeObj.Bitmap(imgPath);
 		bitmap.load(imgPath, function(data) {
 			
-			//Mac OS  
+			//IOS
 			// var base64Url = bitmap.toBase64Data().substr(22);  
 			 
 			//Android 

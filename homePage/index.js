@@ -109,7 +109,7 @@ var index = {
 		mui.ajax({
 			url: 'https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic',
 			data: {
-				access_token: '24.bb5aba2939b39ddad36c115403725ead.2592000.1554716056.282335-15500275',
+				access_token: '24.a7864e37ee8e78280dcb4755206becb5.2592000.1558022929.282335-15500275',
 				image: base64Url
 			},
 			async: true,
